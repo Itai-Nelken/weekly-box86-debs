@@ -10,10 +10,15 @@
  <body>
  
   <h1>weekly box86 debs</h1>
-  <h4>To add this repo to your system, add this line to /etc/apt/sources.list:</h4>
-   <dd><kbd>deb [trusted=yes] https://itai-nelken.github.io/weekly-box86-debs/debs/   /</kbd></dd>
-   <dt>Remember to run <dd><kbd>sudo apt update</kbd></dd> after doing that.</dt>
-  </dl>
+  <h4>To add this repo to your system, run:</h4>
+   <dd><kbd>wget -qO- https://itai-nelken.github.io/weekly-box86-debs/add-repo.sh | sudo bash</kbd></dd>
+   <details>
+    <summary>Manual installation</summary>
+
+    <dd><kbd>deb [trusted=yes] https://itai-nelken.github.io/weekly-box86-debs/debs/   /</kbd></dd>
+    <dt>Remember to run <dd><kbd>sudo apt update</kbd></dd> after doing that.</dt>
+
+   </details>
  
  </body>
 </html>
