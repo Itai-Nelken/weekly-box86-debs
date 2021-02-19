@@ -1,12 +1,13 @@
 Origin: weekly_box86_debs
-Label: weekly_box86_debs
-Codename: buster
-Architectures: armhf
-Components: main
-Description: weekly box86 debs
+	Label: weekly_box86_debs
+	Codename: buster
+	Architectures: armhf
+	Components: main
+	Description: weekly box86 debs
+Date: Fri, 19 Feb 2021 23:19:47 +0000
 MD5Sum:
- 2857b6957ce70fa49a6ed5ef00e60875              439 Packages.gz
- 43fa8459015a028456433b9255863dc5              582 Packages
+ f52de974d3166be2a4ef0d16f1c1ac8c              443 Packages.gz
+ 4d70ebff7c4ab5e030c7d13a43ccd8e8              586 Packages
 SHA256:
- 15b083425be340ab0a57714da5d452e02add1d8a0f39613e7d02038592225fad              439 Packages.gz
- 3fa97dcffb470bf214afb84d9d6d6060a74e2fe074676f7bb52f2a0eb1ff8410              582 Packages
+ f92cd2d81c5afa6d9a166949becc83ce622014001ab879b071c9b0ebb0d11cc3              443 Packages.gz
+ 15e337fa0bc30f4486c96c45173e6212e58ca8ea80d8e77a7d771f607c1efe29              586 Packages
