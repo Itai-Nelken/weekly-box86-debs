@@ -10,8 +10,8 @@ Size: 1382812
 MD5sum: af9b598611bc07948fbc845936187767
 SHA1: 46bd96e0c2740de14638c8e5c4ed309be5f98ad8
 SHA256: 05abbbe8bd525e9cdac00cc1a7aa3b9dc47a6eff78e3d006d4e88ef948548d74
-Section: checkinstall
-Priority: extra
+Section: custom
+Priority: optional
 Description: Linux Userspace x86 Emulator with a twist
  Box86 lets you run x86 Linux programs (such as games)
  on non-x86 Linux, like ARM
