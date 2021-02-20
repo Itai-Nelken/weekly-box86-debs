@@ -4,10 +4,10 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
-Date: Sat, 20 Feb 2021 16:29:19 +0000
+Date: Sat, 20 Feb 2021 23:46:48 +0000
 MD5Sum:
- 17e4c490857a92c33b9eec656295d88d              442 Packages.gz
- 47d7e0c00d4419218a33003c7636c347              593 Packages
+ cedd040e6ba17d418fcf42db132f3329              444 Packages.gz
+ 71554da46dde439f412cfb2b5023b2cd              593 Packages
 SHA256:
- db5e69de8a073bb3dc335c2b034d4274c16b39d7b89dc0cee5e60c042905486b              442 Packages.gz
- 05d7438d7f2a3d47637aaeadc063cc3212d7d7ef29a2647fe4496862b7d612b6              593 Packages
+ fde3ee5ea8b9aa5e29e5c420aac4415b35f00a82a6f3b41a9ec5a32e5620d553              444 Packages.gz
+ 2155439b4001f9c75cf454b794cb78c7bdc8f51d7be8d69ea4f75000a747d604              593 Packages

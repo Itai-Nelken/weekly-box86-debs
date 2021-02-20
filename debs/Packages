@@ -2,14 +2,14 @@ Package: box86
 Version: 1ea8dc82-1
 Architecture: armhf
 Maintainer: root@rpi-nas-builder
-Installed-Size: 6908
+Installed-Size: 6936
 Conflicts: qemu-user-static
 Provides: box86
 Filename: ./box86_1ea8dc82-1_armhf.deb
-Size: 1381684
-MD5sum: 63b864eeca3ac2ae5f63b7e54a369c3b
-SHA1: c14e76a623add4cd7aea4bf85ab4660d4d3a8bfd
-SHA256: 47ae5c94e14ad37bc72f514a6de7a91309a5905dde048d884b032d17aefaafcb
+Size: 1382124
+MD5sum: 38b1fd4527b77bcd4d5826b23a0156ee
+SHA1: f6729114e5ac4b4484b5b1d68ceb7d91b2479835
+SHA256: 442e30b737fa9d6721edcc340524a255859daa5e751342180537695365a41db5
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
