@@ -1,18 +1,18 @@
 Package: box86
 Version: 1ea8dc82-1
 Architecture: armhf
-Maintainer: root@raspberrypi
-Installed-Size: 6936
+Maintainer: root@rpi-nas-builder
+Installed-Size: 6908
 Conflicts: qemu-user-static
 Provides: box86
 Filename: ./box86_1ea8dc82-1_armhf.deb
-Size: 1382112
-MD5sum: fe16eb56d6bc6ca089d40f14a11f4e6f
-SHA1: 78709e93c8c64dd895304eaa51d67007476c658f
-SHA256: 4568a5b46e90a520a642a4da9ba826bb845b81aba073ccf6aaf6df4d06f24e6f
+Size: 1381684
+MD5sum: 63b864eeca3ac2ae5f63b7e54a369c3b
+SHA1: c14e76a623add4cd7aea4bf85ab4660d4d3a8bfd
+SHA256: 47ae5c94e14ad37bc72f514a6de7a91309a5905dde048d884b032d17aefaafcb
 Section: checkinstall
 Priority: extra
-Description: Linux Userspace x86 Emulator with a twist
+Description: Linux Userspace x86 Emulator with a twist.
  Box86 lets you run x86 Linux programs (such as games)
  on non-x86 Linux, like ARM
  (host system needs to be 32bit little-endian).
