@@ -1,9 +1,9 @@
-Origin: 'weekly_box86_debs'
-	Label: 'weekly_box86_debs'
-	Codename: 'buster'
-	Architectures: 'armhf'
-	Components: 'main'
-	Description: 'weekly box86 debs'
+Origin: weekly_box86_debs
+Label: weekly_box86_debs
+Codename: buster
+Architectures: armhf
+Components: main
+Description: weekly box86 debs
 Date: Fri, 19 Feb 2021 23:39:56 +0000
 MD5Sum:
  4f566015950bc6af4f720b439406b1c4              443 Packages.gz
