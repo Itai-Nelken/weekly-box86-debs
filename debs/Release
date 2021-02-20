@@ -4,10 +4,10 @@ Origin: weekly_box86_debs
 	Architectures: armhf
 	Components: main
 	Description: weekly box86 debs
-Date: Sat, 20 Feb 2021 10:26:52 +0000
+Date: Sat, 20 Feb 2021 10:34:33 +0000
 MD5Sum:
- 25e52761986fcfafa3c56db012c651e7              444 Packages.gz
- 1c89f17766dd3d862e7ce555a73bdadb              586 Packages
+ b9a6625dbd7b61c963d170874f3cd239              443 Packages.gz
+ 438764b720ce0554f06818b19cd0d7c8              586 Packages
 SHA256:
- 0dd70f457decf24e88821d40f2994565f628dccc2daca852277327ce9cdd2acd              444 Packages.gz
- 6024b0956d0f35b118ee8396844de18ed7c5c85a42afb10d358bc01345610f33              586 Packages
+ 02272053208bc213d4b6124355155204d1d0ea8774999fb5911d1ad412a6499b              443 Packages.gz
+ 0e329b4a7c0532332c47d12cc304602f8fdba13e03af58700fe83aaeb8267187              586 Packages

@@ -2,14 +2,14 @@ Package: box86
 Version: 0.2.1-1
 Architecture: armhf
 Maintainer: root@rpi-nas-builder
-Installed-Size: 6908
+Installed-Size: 6936
 Conflicts: qemu-user-static
 Provides: box86
 Filename: ./box86_0.2.1-1_armhf.deb
-Size: 1381584
-MD5sum: 8792dfec3bc6c0a44b29d91d94e8a43d
-SHA1: 59a9241c27e6f33cd430dcb918a1b49feeffb99a
-SHA256: 4e89721f45919063908b1b58e97b8785ddcf114657a35b1c9710a801048a0716
+Size: 1382932
+MD5sum: bb7e9f34ec1d880167fe9b1c38b74037
+SHA1: 9c3606460fc0d4b1f8620949ed8fd9b005c8f0d2
+SHA256: 1e610b2dfc8180c5e32096da3d1698d498ae02a31c6c823dcee67799858719e3
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist
