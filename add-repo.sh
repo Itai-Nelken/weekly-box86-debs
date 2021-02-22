@@ -39,8 +39,8 @@ if [[ "$ARCH" != "armv7l" ]] && [[ "$ARCH" != "aarch64" ]]; then
 fi
 
 echo -e "$(tput setaf 6)adding repo...$(tput sgr 0)"
-echo ' + echo "deb [trusted=yes] https://itai-nelken.github.io/weekly-box86-debs/debs/ /" | tee -a /etc/apt/sources.list > /dev/null'
-echo "deb [trusted=yes] https://itai-nelken.github.io/weekly-box86-debs/debs/ /" | tee -a /etc/apt/sources.list > /dev/null
+echo ' + echo "deb https://itai-nelken.github.io/weekly-box86-debs/debian/ /" | tee -a /etc/apt/sources.list > /dev/null'
+echo "deb [trusted=yes] https://itai-nelken.github.io/weekly-box86-debs/debian/ /" | tee -a /etc/apt/sources.list > /dev/null
 echo -e "$(tput setaf 6)running apt update...$(tput sgr 0)"
 echo " + sudo apt update"
 sudo apt update
