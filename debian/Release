@@ -3,20 +3,21 @@ Label: weekly_box86_debs
 Codename: buster
 Architectures: armhf
 Components: main
-Description: weekly box86 debsDate: Mon, 22 Feb 2021 18:26:19 +0000
+Description: weekly box86 debs
+Date: Mon, 22 Feb 2021 20:45:25 +0000
 MD5Sum:
- c8ec3f0f02f698e8078584ba7162caa1             1196 Packages
- 0a009d10e3324c6b6c357ea8dd9d50d4              572 Packages.gz
- 4b6dd237e9d669451fc806e3f001198f              174 Release
+ 1251207b89a291101150cff39fd631be              600 Packages
+ eb822b66a5af362efcece0ab822fcca2              450 Packages.gz
+ bda5892bbd45e8c832678d3dc5c3904a              136 Release
 SHA1:
- 42990e82a72418d16614cc436754715934f5399c             1196 Packages
- d2a019c0280680d426fc478bb3b381a402a0c2d4              572 Packages.gz
- 36be9879051af81a70622b9853101c82172ea2a4              174 Release
+ cf4b776dab215092b0aea8fa5e72e396558d36c0              600 Packages
+ 29e3c4c222905d7a8e56582133887f966f97d5eb              450 Packages.gz
+ f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
 SHA256:
- 313a64d3c6d5218d6d4b14df8a517729b922f536bf0f01b2fddae5d2a75483df             1196 Packages
- 1bcf86bc733dcf565cde7873784679dc697067ffcb59c2c7907cf64c6f63422b              572 Packages.gz
- afab6f544695fcea5407ac9b21755f59c635c02e1834b4debad268591277531d              174 Release
+ c1a88616d46fc92cb2cb29e27ef44fb76f75374725aeef24c8cdc5f5f9be6d6b              600 Packages
+ 167483ffbb6c28e4999c322d45f65a6dfbc5e3ccaba88b1e25c3a67f83904aab              450 Packages.gz
+ 418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
 SHA512:
- 8beff66028fd27282ff691be8484d1dd15b71fa3e790520a829fa5924ee9e2d46bcab1d457cb8ad7746ec7f563bc0e4049e38f49cf25df340818224ad122be95             1196 Packages
- 9e571299bb5834fdb37e01238265d1cc7516688a438354770bd3a50146745e00fb618207322fa3a6a7019289f45e8732d746872beb9ee1c261c11cef1550abf9              572 Packages.gz
- f805a40dfe46a3c5671893d60f17cb5168c1720c2f54496b4935fc2c22b13da4d7157c820c6b7545ce2af219c141ae1ca6a1bdbdb16cf6444eedb748e83ad120              174 Release
+ 72003357508d95c62c524b639963e99989e32e4250f3b9529796cc4279d3c71c1dd88386ad16fad2810d7db2dfbdad07ecba37dff3f4d481d07cce9eddef249d              600 Packages
+ 22116fedfa34ca300578c63fddaa3a165cd5a4aa8639f77acd4018f335e1a550eb367939e6a196b2f9d7f28e03c43e274f08698994f5eaac66cfcef5a3256c02              450 Packages.gz
+ 3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
