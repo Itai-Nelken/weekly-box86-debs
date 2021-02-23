@@ -8,7 +8,7 @@ function error() {
 if [[ "$1" == "--version" ]] || [[ "$1" == "-v" ]]; then
   echo -e "
   $(tput setaf 9)###############################################
-  $(tput setaf 9)#$(tput setaf 4)$(tput bold)add-repo.sh version 1.1 by Itai-Nelken | 2021$(tput sgr 0)$(tput setaf 9)#
+  $(tput setaf 9)#$(tput setaf 4)$(tput bold)add-repo.sh version 1.2 by Itai-Nelken | 2021$(tput sgr 0)$(tput setaf 9)#
   $(tput setaf 9)###############################################$(tput sgr 0)
   "
   exit 0
@@ -39,10 +39,8 @@ if [[ "$ARCH" != "armv7l" ]] && [[ "$ARCH" != "aarch64" ]]; then
 fi
 
 echo -e "$(tput setaf 6)adding repo...$(tput sgr 0)"
-echo ' + wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O ~/box86.list'
-wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O ~/box86.list
-echo ' + sudo mv ~/box86.list /etc/apt/sources.list.d/'
-sudo mv ~/box86.list /etc/apt/sources.list.d/
+echo ' + sudo wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O /etc/apt/sources.list.d/box86.list'
+sudo wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O /etc/apt/sources.list.d/box86.list
 echo "adding key..."
 echo ' + wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo apt-key add -'
 wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo apt-key add -
