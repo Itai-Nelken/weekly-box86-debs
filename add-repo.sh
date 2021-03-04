@@ -7,9 +7,9 @@ function error() {
 # flags. default is to update with extra output and ask to exit.
 if [[ "$1" == "--version" ]] || [[ "$1" == "-v" ]]; then
   echo -e "
-  $(tput setaf 9)###############################################
-  $(tput setaf 9)#$(tput setaf 4)$(tput bold)add-repo.sh version 1.2 by Itai-Nelken | 2021$(tput sgr 0)$(tput setaf 9)#
-  $(tput setaf 9)###############################################$(tput sgr 0)
+  $(tput setaf 9)#########################################################################
+  $(tput setaf 9)#$(tput setaf 4)$(tput bold)add-repo.sh version 1.2 by Itai-Nelken weekly-box86-debs edition | 2021$(tput sgr 0)$(tput setaf 9)#
+  $(tput setaf 9)#########################################################################$(tput sgr 0)
   "
   exit 0
 elif [[ "$1" == "--help" ]] || [[ "$1" == "-h" ]]; then
