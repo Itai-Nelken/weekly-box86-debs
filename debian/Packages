@@ -63,10 +63,10 @@ Installed-Size: 7044
 Conflicts: qemu-user-static
 Provides: box86
 Filename: ./pool/box86_0.2.1+20210330.3da4e03d-1_armhf.deb
-Size: 1412332
-MD5sum: d773aaeb4266a4f4ae45c392f308d908
-SHA1: a66e3ecb26e01804965e8b07560e32b140cd9762
-SHA256: 1851803fa35b92786737500556b362071d2bfd277d964a3d8b4bb6efcfe91992
+Size: 1411968
+MD5sum: 19954f6be952a14b93f8d2049009b995
+SHA1: eef8d4c698278a2c9d4d53c3be2b1c928165e353
+SHA256: e5ec8f3e32977a591e20fb6d035680d10a25867349ace72a46fc1bf47ee017a1
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
