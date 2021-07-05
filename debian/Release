@@ -4,20 +4,38 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
-Date: Sat, 03 Jul 2021 21:06:19 +0000
+Date: Mon, 05 Jul 2021 13:12:36 +0000
 MD5Sum:
- bbae2fc600f5e5c497199ef8a809a37a            19468 Packages
- 2eb8ab5a6e1d5621bbc9fcd8846bdbe0             3835 Packages.gz
+ b1845083a1aa22ec7090abf50580c6ae            20204 Packages
+ 9f0b186fdc52d61bbbbfbb49be78cb39             4030 Packages.gz
  bda5892bbd45e8c832678d3dc5c3904a              136 Release
 SHA1:
- f81ea4a01cc695f2c8bcc23da2cc881d1e9ded29            19468 Packages
- d03ee940b2188f56e70f3e9d9d15c4a2da9bf3c4             3835 Packages.gz
+ 397ae40ea60a8a222ef53e93356ee45951a1d6a6            20204 Packages
+ ffca72f9ff9a71e41a4a1d364f9a4ff3b24c59dd             4030 Packages.gz
  f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
 SHA256:
- aeed2fbf3abc0d9ef7a1ef80569fd91279bc8a7b9831efe38d28cc4275bcda0b            19468 Packages
- 38110ab77b03422d40966379acbcba8de39d70c175a366decf1e4844c4be806e             3835 Packages.gz
+ ee892c2153fb8d3cac1e6e6655be81f02e9ceb9a6896a316748ee25168bd2852            20204 Packages
+ dc2641c02da88cee43882e4f098ff563d69aa97363d2128f7d6272d0c5aa3a80             4030 Packages.gz
  418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
 SHA512:
- 29b90289f806594c58474661b26ccdea1c36096a3e6356392c967c60fb7df8b669e1d92cc1961fedb48f3d34cbfd9e484acd8cce3a1e71a55fb37b5c308c1928            19468 Packages
- 4fbf8004260e63058e379d409323144f81172b96c1d069511884209b237ea41758cc71eb8cf8ad5e2113d1f66f137112feb4c10a7ab649ec139d74c7a05a5610             3835 Packages.gz
+ 0da5b52e49afa82144a7f75f617fc2adef0051b367208d3389ccfd42c2b155486b1a27475d9f57e7effab9317922d6501da1240254d21ae095ad8ad2b655f430            20204 Packages
+ bdeaf4813cdcf60f96b6ab4a7ee64920821ecad8765aaf270aee2297e0e1419dd26cfc46d8b9003ccdd52750bda9bade946cb3552647d3d81253b8909af07917             4030 Packages.gz
  3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
+
+Date: Mon, 05 Jul 2021 13:13:30 +0000
+MD5Sum:
+ b1845083a1aa22ec7090abf50580c6ae            20204 Packages
+ 9f0b186fdc52d61bbbbfbb49be78cb39             4030 Packages.gz
+ b2260d67d442b29aa65cf42c3bc6a191             1341 Release
+SHA1:
+ 397ae40ea60a8a222ef53e93356ee45951a1d6a6            20204 Packages
+ ffca72f9ff9a71e41a4a1d364f9a4ff3b24c59dd             4030 Packages.gz
+ 973ca8cedee6b8426b10787ccc30b98226a1688c             1341 Release
+SHA256:
+ ee892c2153fb8d3cac1e6e6655be81f02e9ceb9a6896a316748ee25168bd2852            20204 Packages
+ dc2641c02da88cee43882e4f098ff563d69aa97363d2128f7d6272d0c5aa3a80             4030 Packages.gz
+ 38e147aa03aff8f9359a1d3462a454a34aee001d242cc92a5baf160651985c39             1341 Release
+SHA512:
+ 0da5b52e49afa82144a7f75f617fc2adef0051b367208d3389ccfd42c2b155486b1a27475d9f57e7effab9317922d6501da1240254d21ae095ad8ad2b655f430            20204 Packages
+ bdeaf4813cdcf60f96b6ab4a7ee64920821ecad8765aaf270aee2297e0e1419dd26cfc46d8b9003ccdd52750bda9bade946cb3552647d3d81253b8909af07917             4030 Packages.gz
+ fb6e3a097f055e1773fa605a31dbf696b655d3771155ae5e6b7a2b07ec7c541e3e491a3f865926ddd8d901d7eeb932e7a9a973c677f0be6ac562304b17b48903             1341 Release
