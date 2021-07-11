@@ -7,37 +7,37 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
-Date: Sat, 10 Jul 2021 21:31:11 +0000
+Date: Sun, 11 Jul 2021 06:07:41 +0000
 MD5Sum:
- f03b647354ac7b51a9a8202bf7f04030            23533 Packages
- 7d2ce65d28e2b4ddbd6a8d978d8322e9             4639 Packages.gz
+ 753db60d008c52edd62a6900f350b6c0            24263 Packages
+ 967f5381eed31c5e41c70975b68ed123             4765 Packages.gz
  bda5892bbd45e8c832678d3dc5c3904a              136 Release
 SHA1:
- 88df8a99e531e1d5d932e341caaea3b30eb9239f            23533 Packages
- 3efaa6aaabdaddf9dbaf2624d78126bf7ee9eb93             4639 Packages.gz
+ a0a2535cd7b76afc540ac2a59b462d7aa6dd5253            24263 Packages
+ 02267e4ce974d2af186dd29c0fc1cf9bc841e240             4765 Packages.gz
  f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
 SHA256:
- 0966b0f901d62abb33877ef8d3d59b109df9bd2f2235ecbe788121dd914542f1            23533 Packages
- d9849cd4a183add3e2dfcc816c0c2448ee22093ef455b3c1f060deb87f8edbda             4639 Packages.gz
+ b5fad1f8050f877d5dd3f26bb0012e1929657b7e801dcc117b7fc7450f31a90b            24263 Packages
+ 3b59ec5e4045c02a545f891bb17874ae07f1739f025e88f086fdeb52a084f577             4765 Packages.gz
  418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
 SHA512:
- 0c84b103cb68a6f598750a37eecb092819769492d4bcabbfb0dc8ef5b36ae8d3637531e45e4e5041c1d3928f4f06571bebe68097529abcd58671abd45ff420cf            23533 Packages
- 9979aad3ee0a1080e7a8f2c48eb02186404e02b9e5acaa629158e4847d1e93404d4cd494e4deef591457b84455b9bd6690fda2b3250088490b4c11bb7d56f7d3             4639 Packages.gz
+ b31df784323b33de31de90a5a7a9cd60862d9c4e43cda6568a8058e7d7d98b260db2eafa054df7de36c273ef51187f23bb53110f1071c47fa744ff3ec6008f6f            24263 Packages
+ 6ec023b9bf3fc7b9ebeedf8fac7ace7decb3a8ae42dc0725ab54d979260835044051a8c8a92931fdb20ff572436b246fafb60b8364c5b4d334036930567caea9             4765 Packages.gz
  3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQJJBAEBCgAzFiEEXbzoGHLAYJ08R2Gq6zzpozfs36QFAmDqEaAVHGl0YWluZWxr
-ZW5AZ21haWwuY29tAAoJEOs86aM37N+kbr4P/jqOs6kxxD3Cw8Ew+2eDysZflLwa
-OKIGYNiTD/1X9U7G/NIOdqXRVnB1H0O7N7HvgJny83pa+jHGmTEkRnHt+6lx2oUR
-sR1PmTy+YRgspaQxFltZOUYkoELwXjCVnzvwqwwrg10BOUEyZ/UdiD/EwqiBBqCc
-opkzaogcPz2uNujosJszT1JOyr9zF4u6+eLiOuz1rkQVUzVgnunpV3vpZQToSKyS
-S6WkMRjXiAUqstRo5Excpf28RezCGCpb5Jxy+/n1OAaL799RXxCfzdNuvg+QxM5I
-BfyG2BlDkRjuZTGQGC0ppG1R6KBK1+vg56OXiG82bcfrDIhvhzMNgOGizOZHaje2
-m2K04CrTs8mwke3nafaaAdMY3uu92hpJcz/kDxkSvcPpANr0obbMCDkcTqN3KFI8
-yTNSg+OisUEQPY+rS+MgcfoqPQ960GL/0MQgIyEGNlr5wecm41P5rbDPMZ7XQIA6
-rYP/H41DhxETcUZBItcdsVhOxxUi6m12g0SyFyHDpejQ8LvmHzYAvB+mpakNQAHS
-AmpOoACr6sH1J3oknFhERAnPJmiEiARBNav2M10AT8iqp+sqFPOySV+ZoItM1e5N
-sHUXP7IQ1PXxOc6B9rGiRt1zOFQJl340n5CWrSE7z4yLyPKecZMOFlnZGH9d7c9S
-cAR9opuVDCU1KeFJ
-=a5du
+iQJJBAEBCgAzFiEEXbzoGHLAYJ08R2Gq6zzpozfs36QFAmDqiq4VHGl0YWluZWxr
+ZW5AZ21haWwuY29tAAoJEOs86aM37N+ki8YQAKfatwOO7Pjp6Kefi+BIGcCJOL8w
+5979uo7F0PmoDmaaYAEg/rpUiAhnVdurV1u4fElIIw7fAb3uZOEXEvEyqTrt+eY9
+mkqIWZ3KG+JoNG4dZF8uoBNyuOjnbZ3cEsHLunn6W2v5uEC6Y3N8flp1xMgHZghn
+wliCoKKSbRPkgBandyFTWCSBFeD1dYt7kwPkkBksn2GjtPXwIeUlEakg6OJNN8qa
+Tv6ZqeanLxkl3kMM2HsKl9TvWaCMhfdAamOWyeipforTjW5EJjDcOKTRR8KSVhpt
+uUgIfjRFPhGYtlq/btkNLDjt8oh9ATapotAuzdelQyMh46BzPdxh1fcXfVKnCXIS
+ts0S7zBQsZqsRIuGx/7dJzseKhQtS+T2dQw8L16x8hBAqdl48so/YMMbysldvQS3
+bFdm4OBwYK9sP9AcGgYHq73zMc+tSyYKOmBnJ17nr2uDmNHvqN+RqXfsNOmRWQre
+EfJ/oTuoo6+CXJJahr+/hkLeOtsrXSW6TdKmfQQ1FRJoYotAqMCNcgTiyjZrjqbx
+4qgHBYV3efipepVw0Z7e825qUb7eCK6Q8idle3o1MUc1Ev/kUpr9CGuj105U5IwT
+qIAacEttOl8g2+4A65qch7bxpAuVDmfW+dxrkXnNQYpCjIzkuLB63Nwo2+A75Y5s
+NBGqUUBxC8GISOv0
+=0WPM
 -----END PGP SIGNATURE-----
