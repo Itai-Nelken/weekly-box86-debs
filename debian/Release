@@ -4,6 +4,7 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
+<<<<<<< HEAD
 Date: Tue, 20 Jul 2021 14:34:58 +0000
 MD5Sum:
  d05156e2a012bfcef4e6ccd43ef99730            24478 Packages
@@ -20,4 +21,22 @@ SHA256:
 SHA512:
  0e29fda8ee20a22b36e78f02d05f184b4d8955c140ce38f1f0d32b34df0007154259feb87420ab7be20bdc455d2072e24bd0ad6f211b900adbda8c32bb982f47            24478 Packages
  a6be82870a1588eef7e0d86e864143aaa1eb7ac59f5d92347098caa3844e0b7536b11d7d8add4bf56a02e456d8e28c0220e162509612c5a43ad368b14aa9b1c7             4770 Packages.gz
+=======
+Date: Mon, 12 Jul 2021 23:03:07 +0000
+MD5Sum:
+ ad9fad28dff7676a6e4d1a28aefd63aa            25723 Packages
+ 324364fcd73b98e431b659649d363f2d             4987 Packages.gz
+ bda5892bbd45e8c832678d3dc5c3904a              136 Release
+SHA1:
+ ce8cd8f8a0dd4213e8d5956ff9c3a6f2cb372321            25723 Packages
+ 6c6e839a2634f690c2d0ba14f44ef7a2b17b1060             4987 Packages.gz
+ f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
+SHA256:
+ 953f805ff8b9a0821af137395885852dfcadd50fb547ec943f0b276e88e22cbb            25723 Packages
+ 2854b992456de41de19f8e77f96a742f97570793c86e8ac33b83b2d0472bedda             4987 Packages.gz
+ 418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
+SHA512:
+ a7e0f6bfd2121e9cd7d5a59538c4227c84a924bceb730fd7984d82939fbdb342be97d4319effd3a9c5366e0778eecef647e9d0edab84b0a4b86b22e69314a220            25723 Packages
+ dc2546cf1cc42f67622da699554a3e005d991c14e5171861f8c0277a5ef7b777b00560fc8e5a3a5e84c109ee0cddcfdb6dcffde6ab7f0681a5cb886fc8e0101f             4987 Packages.gz
+>>>>>>> parent of 040e352 (remove box86 versions that require newer glibc)
  3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
