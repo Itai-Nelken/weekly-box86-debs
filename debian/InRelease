@@ -7,57 +7,37 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
-<<<<<<< HEAD
-Date: Tue, 20 Jul 2021 14:34:58 +0000
+Date: Tue, 20 Jul 2021 18:18:50 +0000
 MD5Sum:
- d05156e2a012bfcef4e6ccd43ef99730            24478 Packages
- fd9968657950440454e9e9107ad5e82a             4770 Packages.gz
+ afe41ca5b99095430a1d90c6c2a09a40            26347 Packages
+ 1df7d71b071143fabc36a8beb24b1d31             5103 Packages.gz
  bda5892bbd45e8c832678d3dc5c3904a              136 Release
 SHA1:
- 7cab7dafef6eed31e39f9ac1bc5c793246703bbf            24478 Packages
- f61715fdb73a9f1a5a425d69cef780d7243572b6             4770 Packages.gz
+ eed7263e4a824177c5789f9acfba68b41e171b51            26347 Packages
+ 6f13484def2fa82a576ea0c27848a996e52efd38             5103 Packages.gz
  f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
 SHA256:
- 69c7f90dbe8dba8c474f0fe89db108c63b59cfaa1635969e415fd759d077a02b            24478 Packages
- 154172fb007c2da05d6d82ac7a3575f42fcefd9baba54908240957fc0fa2bbb8             4770 Packages.gz
+ b2a32ee072c27d63d3483920a831b7d47377d2c67d8ae44996f660a91376c9c1            26347 Packages
+ 35954e3ef16eb5e536f232d88263d98807a97ce19683c2b207a37b9c4fd555da             5103 Packages.gz
  418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
 SHA512:
- 0e29fda8ee20a22b36e78f02d05f184b4d8955c140ce38f1f0d32b34df0007154259feb87420ab7be20bdc455d2072e24bd0ad6f211b900adbda8c32bb982f47            24478 Packages
- a6be82870a1588eef7e0d86e864143aaa1eb7ac59f5d92347098caa3844e0b7536b11d7d8add4bf56a02e456d8e28c0220e162509612c5a43ad368b14aa9b1c7             4770 Packages.gz
- 3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
-=======
-Date: Mon, 12 Jul 2021 23:03:07 +0000
-MD5Sum:
- ad9fad28dff7676a6e4d1a28aefd63aa            25723 Packages
- 324364fcd73b98e431b659649d363f2d             4987 Packages.gz
- bda5892bbd45e8c832678d3dc5c3904a              136 Release
-SHA1:
- ce8cd8f8a0dd4213e8d5956ff9c3a6f2cb372321            25723 Packages
- 6c6e839a2634f690c2d0ba14f44ef7a2b17b1060             4987 Packages.gz
- f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
-SHA256:
- 953f805ff8b9a0821af137395885852dfcadd50fb547ec943f0b276e88e22cbb            25723 Packages
- 2854b992456de41de19f8e77f96a742f97570793c86e8ac33b83b2d0472bedda             4987 Packages.gz
- 418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
-SHA512:
- a7e0f6bfd2121e9cd7d5a59538c4227c84a924bceb730fd7984d82939fbdb342be97d4319effd3a9c5366e0778eecef647e9d0edab84b0a4b86b22e69314a220            25723 Packages
- dc2546cf1cc42f67622da699554a3e005d991c14e5171861f8c0277a5ef7b777b00560fc8e5a3a5e84c109ee0cddcfdb6dcffde6ab7f0681a5cb886fc8e0101f             4987 Packages.gz
+ ad282af92e22922ae316ae1bf95d372d9e9cf5a8b8a9c11cb4a706a9739f475941edd8d9b0468cb35f50b1337585fa2b6dc05c7d3c0fb9eb2ed7edcccab2bdd7            26347 Packages
+ c2bcab754923dfcc169ac6dd2f3249f216c05a081a7ce0e3c20451df1a79e1abbd5e1d3423ee0a6cc79df56d16050524e95e365003540ad977e6b2f43a795473             5103 Packages.gz
  3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
 -----BEGIN PGP SIGNATURE-----
 
-iQJJBAEBCgAzFiEEXbzoGHLAYJ08R2Gq6zzpozfs36QFAmDsyk8VHGl0YWluZWxr
-ZW5AZ21haWwuY29tAAoJEOs86aM37N+kGiEP/itbVWQ/HgckzaFtSo70g9LoAAgg
-j6rHTkEQW4LzUgGCaoPd9/TyKHH55UQ94+XchHlbsL/21R7JEaeOyizBqXzatPzG
-pu/4HWkRfwor775mnvnL4ppk+5Ncn7y8J2AHifauNXtWIxHT3BkIicDzbI+3G7b1
-l+A4X5uHqedhmA1o1aBGA9FK7W/zQ1z5669xF0Gy+/uNaCB2E67IorSgoI/1Cz2e
-mBu/35QeW6luEcUd52J4A0RmCwosL2yOqpKauc60nwxHFZx+rCiun/5I6UbkccF4
-8eRIq4mE7kYtt8BoQWsTSlIE9+StBbGGXyABLoUSaj/0qOVhWMJjz1dpEjEBL6O4
-xF7PIfBNdxVA36AaSZWnTSg9ANNrqz71bstAyPCn12mff2/pAKkjh4MGcuPDcDnM
-unfD+6g2zrtmgKXVFc6VJlgcRCjAK7ObF0BuutlfhQn4eAJRL8hBWKYAGxtTt11j
-asQ8ViXw9xEbGhkAyUvL7WpNPCXyuzfyqc+9TDEVdb6K90D/ZRfVizSmF4ulpBlk
-VBpm0jTR3MoQRg/duvkku/wGf7dIaBof97sWRAMhtTDKXIqnkXX603Tzdi+8BzEz
-6vDlXx2kzX39EC/9cjBN1SXISuDGm3gW0VrNwfU1YGudJsF/whQnmqG8j90X9dT0
-/AaF5BQZJ9kt40Or
-=fNwt
+iQJJBAEBCgAzFiEEXbzoGHLAYJ08R2Gq6zzpozfs36QFAmD3E80VHGl0YWluZWxr
+ZW5AZ21haWwuY29tAAoJEOs86aM37N+kykQP+wQmBHOyzmgMSAo4ruSZg8QzKb/R
+my6zL7zwUvVDSdQkB1oEfOY+29GhGfWvq/R03d+2PxVxH4uCckQVJd1PN8+Rl872
+HfCMt3H32EnlnnegScoQTIouBl17IyHBd5QkLPH6nogIeuYH9FxLNvlH1RwHR2M+
+c9WfcgAUG5vmgzbN7zHngr3IhxRapOhIl4MXhzome0sXoFL3T2bhYTNCtXX9J0KB
+n8eWCF0MKlGUKJ0jUalaBsCqoZe4pKHIsm0ZvAU6mWbnwtAlR7iWBdXFZPelcvOc
+CvmSch3PxzAVFMcnVPbbatiO45P1ExH0EU+8r752o1BcZbgQhvryXJvgQgWRSi9W
+jq4xTSKHd8V6FTChDaQuQSTObIdoo5kk+j+HaElUNefPcg0KZT5qoIudUkdbRrfB
+MWDgPhP2LrWtnm+hJyUuvtBG+qesMiFqgyrAkdlZDmKoJjbBE1D6Ic0wRCrpIP9y
+kWb0baJOOEIEJMNJQSpdGuR2CBEpLxP8/nfonuVj6h/96N/DOyo4qQ61dgqJP0L0
+82wF41EBP5sEf9V7GozAneWI7x7SGAwr5yJULm8f9q462Ivni1k1ArLRPXgsxdnU
+AdXfgBc43rZS0G7Cc5rdhpxNyhnIy7V3DzzjMEgvLS16SbG05TFedg35NTDA5q05
+8QuHATyYNYVKo4Vy
+=NhGC
 -----END PGP SIGNATURE-----
->>>>>>> parent of 040e352 (remove box86 versions that require newer glibc)
