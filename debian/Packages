@@ -848,11 +848,11 @@ Maintainer: root@rpi-builder
 Installed-Size: 7264
 Conflicts: qemu-user-static
 Provides: box86
-Filename: ./pool/box86_0.2.3+20210830.389927d-pi-apps.deb
-Size: 1463640
-MD5sum: 702f8b35ca8ba9f81109eba1a5f14d8f
-SHA1: be0eda6dfa1b16f8b80f09b07073b43136f52dd6
-SHA256: db0973878858423d8b125b3a2f5ddb6b85d4f44e167337e67c057d24d5cb86b4
+Filename: ./pool/box86_0.2.3+20210830.389927dc-1_armhf.deb
+Size: 1464328
+MD5sum: 15b08e59bb288ed793e7d5b82732d604
+SHA1: 0fa43fc4ae703ebe2120a4bed3e0f3032c7d9959
+SHA256: 3a4adc818cc7ec138bf5c6cd9e70331f1cac8ccf763774d1d3a37ec4ef1f7457
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
@@ -860,18 +860,18 @@ Description: Linux Userspace x86 Emulator with a twist.
  on non-x86 Linux, like ARM
  (host system needs to be 32bit little-endian).
 
-Package: box86
+Package: box86-pi-apps
 Version: 0.2.3+20210830.389927dc-1
 Architecture: armhf
 Maintainer: root@rpi-builder
 Installed-Size: 7264
 Conflicts: qemu-user-static
 Provides: box86
-Filename: ./pool/box86_0.2.3+20210830.389927dc-1_armhf.deb
-Size: 1464268
-MD5sum: 67b0e826946a7a3059363c8d6538f159
-SHA1: 146cdb81dd78d82b1fe7eeadb1671f1b834f0564
-SHA256: 9689b077b6883b74ce60b01f7d8f88f70b118876cee0f1de0592272b8d548ba1
+Filename: ./pool/box86_0.2.3+20210830.389927d-pi-apps.deb
+Size: 1464272
+MD5sum: 1c67edaa2b465085e38ffa256745c546
+SHA1: 4dd9b07892dcf744e669cc44eb8c54b9c8f827ce
+SHA256: 81b9290648f488bf0621f9cc452a96e5cb8ba1f38fa5f3bbe64e1762c6657ba8
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
