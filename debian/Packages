@@ -925,10 +925,10 @@ Installed-Size: 7476
 Conflicts: qemu-user-static, box86-no-binfmt-restart
 Provides: box86
 Filename: ./pool/box86_0.2.3+20210926.2bb62e41-1_armhf.deb
-Size: 1495528
-MD5sum: da4a2826de31c0356f05b0a9d97bcd27
-SHA1: ad9df462292de9c03d784a1a91be7584eb64f527
-SHA256: e60348617aedad3a6d0820ad08a69d15a4f46f1fb85cfa2957c2533b314ae415
+Size: 1495044
+MD5sum: 60b1be50fb7b603e3a81c6b58f2e244a
+SHA1: 52c16a40d7282fa6dc0589ca73513f3a0c9287aa
+SHA256: b82603092d8bd18a411d0e46595558fdf9cb99dc27215c2b296888c021750ec4
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
@@ -1020,10 +1020,10 @@ Installed-Size: 7476
 Conflicts: qemu-user-static, box86-no-binfmt-restart
 Provides: box86
 Filename: ./pool/box86_0.2.3+20210926.2bb62e4-no-binfmt-restart.deb
-Size: 1495468
-MD5sum: 2629bea9c97d9cc3140f16c34978c473
-SHA1: 13371c8eb2f121c986babc42600ee4dd497a44ac
-SHA256: fe2d5c469c3bb78c369e34d727c0be66cb71fa9fea4262010e634f3e40632590
+Size: 1494984
+MD5sum: dbb8cfd4428258929060721b3e642f64
+SHA1: d29f5bddce6a11d8b86d7d2f79d759f1c9a0127e
+SHA256: 11da21ec793a2c3c186880cbc040129bba02e992ac5c20f2f72246864e494e29
 Section: checkinstall
 Priority: extra
 Description: Linux Userspace x86 Emulator with a twist.
