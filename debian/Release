@@ -4,20 +4,20 @@ Codename: buster
 Architectures: armhf
 Components: main
 Description: weekly box86 debs
-Date: Sat, 25 Dec 2021 22:11:33 +0000
+Date: Tue, 28 Dec 2021 16:12:08 +0000
 MD5Sum:
- 6a9c1a806ae47216da83fe3eaa4012bb            42995 Packages
- fd67fb058bccbd5eb4e098df2d5b9f2b             8054 Packages.gz
+ 62d437ce8addbb8bf15a6b8507c7a1df            43619 Packages
+ edbbb26a86256b8ad4500517f9ba9d7c             8174 Packages.gz
  bda5892bbd45e8c832678d3dc5c3904a              136 Release
 SHA1:
- 489bc5737762be9c5a8ea69fcfe3f5967d896a52            42995 Packages
- dccbf0e189c06a8f8bb2d073d0cf5f03a7ceeadb             8054 Packages.gz
+ 0488369e5729827bb11e7166bd5eae4680c3e90e            43619 Packages
+ b474513c02f30ff41723574c820efab6037a1fd0             8174 Packages.gz
  f64a8b6b40c3fb7a51c18e6fed4dd884932ae16b              136 Release
 SHA256:
- c41a19dcdd8678e21d766a532723f53fedf0bf3c004856cb939b3d2e6faef39c            42995 Packages
- 578a32e4aff8f0bf214579b901a238f29d91a5cd4ec1939d926a04d09f26989c             8054 Packages.gz
+ e4b9c865c6c89a60245f234d3a3fdec7ee15590cbd753a211595c3441b4cb4c5            43619 Packages
+ c17fd39e328492d6c79c3c379361445a24a012f36e6a218345dc3cfa7b7c2ef1             8174 Packages.gz
  418a6a53bc675062160adab8e53d256c4f5207e14e18afe50582278bda8acafa              136 Release
 SHA512:
- baf83ce2c13deef42b372f4bb51fa3975ccef34d943f71e49a2bc60e0e617ca998dad9941fc0509099fc1aa7b29947156f3ab311946480b714b88f653cacde26            42995 Packages
- f103844db9aa5a189af3d0d5e50d12092c4c691da4c9393de5f5ed62b5c066176a7997ff7c5a8885f3c6233a810344a2938202e91d77a9c566d09da90af712fe             8054 Packages.gz
+ 70d93d585fa525f144ace5d60afd421be84b835c6bfe81ec3aac5259bad9788b271df7232144a1c6eab7c0c3d4cf0a0067c2349526a9043e7ec8fa5462a414f1            43619 Packages
+ b6f99568fb908944f7f6d2967e3086a0d84db77b02286cfbbe90ee292ee2e41f7be6e85f9cbb4d8dda78866e4e2e45d500e482eb65f3df30097c0450b3c321eb             8174 Packages.gz
  3bf59653adfce27336124279691985d439ca3f0cc937e8f0c73ee5e0a47169858e30d731720d866d0517b804216263b3f29de64a7ac9b274a7636c5d99ab9ab8              136 Release
