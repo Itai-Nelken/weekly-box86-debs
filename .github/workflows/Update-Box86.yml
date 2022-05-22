@@ -61,7 +61,7 @@ jobs:
 
       - name: Upload
         run: |
-          cd $DIRECTORY
+          cd $GITHUB_WORKSPACE
           git config --global user.email "itainelken@gmail.com"
           git config --global user.name "Itai-Nelken"
           git add .
