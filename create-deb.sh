@@ -64,7 +64,7 @@ cp ../LICENSE ./doc-pak || error "Failed to add license to docs"
 echo "Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)">description-pak || error "Failed to create description-pak."
 echo "#!/bin/bash
 echo 'Restarting systemd-binfmt...'
-systemctl restart systemd-binfmt || true" > postinstall-pak || error "Failed to create postinstall-pak!"
+systemctl restart systemd-binfmt || echo -e \"\e[1;31mFailed to restart systemd-binfmt! box86 won't get called automatically.\nrebooting might help.\e[0m\"" > postinstall-pak || error "Failed to create postinstall-pak!"
 
 sudo checkinstall -y -D --pkgversion="$DEBVER" --arch="armhf" --provides="box86" --conflicts="qemu-user-static" --pkgname="box86" --install="no" make install || error "Checkinstall failed to create a deb package."
 
