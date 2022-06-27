@@ -60,6 +60,7 @@ cp ../docs/README.md ./doc-pak || warning "Failed to add readme to docs"
 cp ../docs/CHANGELOG.md ./doc-pak || error "Failed to add changelog to docs"
 cp ../docs/USAGE.md ./doc-pak || error "Failed to add USAGE to docs"
 cp ../LICENSE ./doc-pak || error "Failed to add license to docs"
+cp ../docs/X86WINE.md ./doc-pak
 echo "Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)">description-pak || error "Failed to create description-pak."
 echo "#!/bin/bash
 echo 'Restarting systemd-binfmt...'
