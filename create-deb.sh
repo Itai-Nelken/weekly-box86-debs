@@ -3,6 +3,8 @@
 DIRECTORY="/github/workspace"
 DEBIAN_FRONTEND=noninteractive
 
+NOWDAY="$(printf '%(%Y-%m-%d)T\n' -1)" || error 'Failed to get current date!'
+
 LATESTCOMMIT=`cat $DIRECTORY/commit.txt`
 
 function error() {
@@ -73,6 +75,7 @@ sudo checkinstall -y -D --pkgversion="$DEBVER" --arch="armhf" --provides="box86"
 cd $DIRECTORY
 mv box86/build/*.deb ./debian/pool/ || error "Failed to move deb to debian folder."
 
+tar cfJv ./debian/source/${NOWDAY}.tar.xz $DIRECTORY/box86
 rm -rf $DIRECTORY/box86
 
 echo "Script complete."
