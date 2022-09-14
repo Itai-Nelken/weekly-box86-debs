@@ -75,7 +75,7 @@ sudo checkinstall -y -D --pkgversion="$DEBVER" --arch="armhf" --provides="box86"
 cd $DIRECTORY
 mv box86/build/*.deb ./debian/pool/ || error "Failed to move deb to debian folder."
 
-tar cfJv ./debian/source/${NOWDAY}.tar.xz $DIRECTORY/box86
+tar cfJv ./debian/source/${NOWDAY}.tar.xz $DIRECTORY/box86 || error "Failed to create a tar.xz!"
 rm -rf $DIRECTORY/box86
 
 echo "Script complete."
