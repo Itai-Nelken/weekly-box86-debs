@@ -71,7 +71,7 @@ fi" > postinstall-pak || error "Failed to create postinstall-pak!"
 sudo checkinstall -y -D --pkgversion="$DEBVER" --arch="armhf" --provides="box86" --conflicts="qemu-user-static" --pkgname="box86" --install="no" make install || error "Checkinstall failed to create a deb package."
 
 cd $DIRECTORY
-mv box86/build/*.deb ./debian/ || error "Failed to move deb to debian folder."
+mv box86/build/*.deb ./debian/pool/ || error "Failed to move deb to debian folder."
 
 rm -rf $DIRECTORY/box86
 
