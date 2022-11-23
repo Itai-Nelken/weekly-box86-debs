@@ -3,16 +3,15 @@
 DIRECTORY="/github/workspace"
 DEBIAN_FRONTEND=noninteractive
 
-NOWDAY="$(printf '%(%Y-%m-%d)T\n' -1)" || error 'Failed to get current date!'
+NOWDAY="$(printf '%(%Y-%m-%d)T\n' -1)"
 
-LATESTCOMMIT=`cat $DIRECTORY/commit.txt`
+LATESTCOMMIT=$(cat $DIRECTORY/commit.txt)
 
 function error() {
 	echo -e "\e[91m$1\e[39m"
-    rm -f $COMMITFILE
-    rm -rf $DIRECTORY/box86
+	rm -f $COMMITFILE
+	rm -rf $DIRECTORY/box86
 	exit 1
- 	break
 }
 
 rm -rf $DIRECTORY/box86
@@ -28,7 +27,7 @@ sudo make install || error "Failed to run make install for Checkinstall!"
 cd .. && rm -rf checkinstall
 wget 'https://launchpad.net/~theofficialgman/+archive/ubuntu/cmake-bionic/+files/cmake_3.24.2-25.1_armhf.deb' || error "Failed to download updated cmake package!"
 sudo apt install -yf ./cmake_3.24.2-25.1_armhf.deb
-rm -rf cmake_3.21.3-15.1_armhf.deb
+rm -rf ./cmake_3.24.2-25.1_armhf.deb
 
 rm -rf box86
 
@@ -36,7 +35,8 @@ git clone https://github.com/ptitSeb/box86 || error "Failed to download box86 re
 cd box86
 commit="$(bash -c 'git rev-parse HEAD | cut -c 1-7')"
 if [ "$commit" == "$LATESTCOMMIT" ]; then
-  error "box86 is already up to date. Exiting."
+  echo -e "\x1b[1;33mNOTE: box86 is already up to date. Exiting.\x1b[0m"
+  exit 0
 fi
 echo "box86 is not the latest version, compiling now."
 echo $commit > $DIRECTORY/commit.txt
@@ -45,7 +45,7 @@ mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -DRPI4=1 || error "Failed to run cmake."
 make -j4 || error "Failed to run make."
 
-function get-box86-version() {
+function get_box86_version() {
 	if [[ $1 == "ver" ]]; then
 		export BOX86VER="$(./box86 -v | cut -c21-25)"
 	elif [[ $1 == "commit" ]]; then
@@ -53,8 +53,8 @@ function get-box86-version() {
 	fi
 }
 
-get-box86-version ver  || error "Failed to get box86 version!"
-get-box86-version commit || error "Failed to get box86 commit!"
+get_box86_version ver  || error "Failed to get box86 version!"
+get_box86_version commit || error "Failed to get box86 commit!"
 DEBVER="$(echo "$BOX86VER+$(date +"%F" | sed 's/-//g').$BOX86COMMIT")" || error "Failed to set debver variable."
 
 mkdir doc-pak || error "Failed to create doc-pak dir."
@@ -79,3 +79,4 @@ tar cfJv ./debian/source/${NOWDAY}.tar.xz $DIRECTORY/box86 || error "Failed to c
 rm -rf $DIRECTORY/box86
 
 echo "Script complete."
+exit 0
