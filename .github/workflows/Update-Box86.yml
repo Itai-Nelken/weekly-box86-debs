@@ -3,7 +3,7 @@ name: Update-Box86
 # Controls when the workflow will run
 on:
   schedule:
-     - cron: '0 */6 * * *'
+     - cron: '0 0 * * 0'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
