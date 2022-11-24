@@ -43,7 +43,7 @@ jobs:
         with:
           args: >
             bash /github/workspace/create-deb.sh
-            
+
       - name: Write new package to repo
         run: |
           export DIRECTORY="$GITHUB_WORKSPACE"
@@ -62,6 +62,10 @@ jobs:
       - name: Upload
         run: |
           cd $GITHUB_WORKSPACE
+          if [[ -f exited_succesfuly.txt ]]; then
+            rm exited_succesfuly.txt
+            exit 0
+          fi
           git config --global user.email "itainelken@gmail.com"
           git config --global user.name "Itai-Nelken"
           git add .
