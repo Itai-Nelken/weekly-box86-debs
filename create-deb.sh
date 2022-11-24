@@ -39,7 +39,7 @@ if [ "$commit" == "$LATESTCOMMIT" ]; then
   rm -rf "box86"
   echo -e "\x1b[1;33mNOTE: box86 is already up to date. Exiting.\x1b[0m"
   touch exited_succesfuly.txt
-  exit 1
+  exit 0
 fi
 echo "box86 is not the latest version, compiling now."
 echo $commit > $DIRECTORY/commit.txt
