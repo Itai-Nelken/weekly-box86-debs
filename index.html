@@ -50,11 +50,13 @@
       <br>
       <dd><kbd><span class="code">sudo wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O /etc/apt/sources.list.d/box86.list</span></kbd></dd>
       <br>
-      <dd><kbd><span class="code">wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo apt-key add -</span></kbd></dd>
+      <dd><kbd><span class="code">wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo tee /etc/apt/trusted.gpg.d/box86_weekly.gpg</span></kbd></dd>
       <br>
-      <dt>Remember to run <span class="code">sudo apt update</span> after doing that.</dt>
+      <dt>Remember to run <span class="code">sudo apt update</span> after doing that to refresh the reositories.</dt>
 
     </details>
+    <h4>Installing box86:</h4>
+    <dt>After adding the repository to your system, you can install box86 by running <span class="code">sudo apt install box86</span>.</dt>
   
   </body>
 </html>
