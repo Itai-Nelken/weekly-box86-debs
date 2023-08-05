@@ -42,8 +42,8 @@ echo -e "$(tput setaf 6)adding repo...$(tput sgr 0)"
 echo ' + sudo wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O /etc/apt/sources.list.d/box86.list'
 sudo wget https://itai-nelken.github.io/weekly-box86-debs/debian/box86.list -O /etc/apt/sources.list.d/box86.list
 echo "adding key..."
-echo ' + wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo tee /etc/apt/trusted.gpg.d/box86_weekly.gpg'
-wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | sudo tee /etc/apt/trusted.gpg.d/box86_weekly.gpg
+echo ' + wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/weekly_box86_debs_keyring.gpg'
+wget -qO- https://itai-nelken.github.io/weekly-box86-debs/debian/KEY.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/weekly_box86_debs_keyring.gpg
 echo -e "$(tput setaf 6)running apt update...$(tput sgr 0)"
 echo " + sudo apt update"
 sudo apt update
