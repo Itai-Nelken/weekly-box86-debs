@@ -1,5 +1,6 @@
 # weekly-box86-debs
-box86 debian repository, updated weekly.<br>
+box86 debian repository, updated weekly.
+
 ### Note:
 While updates are checked for every week, yhe debs will be updated only if there were any commits made to the box86 git repository since the last build.
 ## Instructions to add this repo to your system (debian and derivatives only) can be found [here](https://itai-nelken.github.io/weekly-box86-debs/).
