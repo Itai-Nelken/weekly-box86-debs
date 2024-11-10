@@ -1,3 +1,4 @@
+# WARNING: While this repo is updated automatically, it is unchecked and unmaintained by me due to lack of time. Use [pi-apps](https://pi-apps.io/) for a properly maintained repo.
 # weekly-box86-debs
 box86 debian repository, updated weekly.
 
