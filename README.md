@@ -1,4 +1,4 @@
-# WARNING: This repo is unmaintained and archived. As such, it is no longer updated. Use [this repo](https://ryanfortner.github.io/box86-debs/) directly or via [pi-apps](https://pi-apps.io/) for up-to-date box86 packages.
+# WARNING: This repo is unmaintained and archived. As such, it is no longer updated. Use [this repo](https://ryanfortner.github.io/box86-debs/) or preferably [pi-apps](https://pi-apps.io/) for up-to-date box86 packages.
 # weekly-box86-debs
 box86 debian repository, updated weekly.
 
