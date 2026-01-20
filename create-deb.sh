@@ -20,14 +20,14 @@ cd $DIRECTORY
 
 # install dependencies
 apt-get update
-apt-get install wget git build-essential python3 make gettext pinentry-tty sudo devscripts dpkg-dev -y || error "Failed to install dependencies"
+apt-get install wget git build-essential python3 make cmake gettext pinentry-tty sudo devscripts dpkg-dev -y || error "Failed to install dependencies"
 git clone https://github.com/giuliomoro/checkinstall || error "Failed to clone checkinstall repo"
 cd checkinstall
 sudo make install || error "Failed to run make install for Checkinstall!"
 cd .. && rm -rf checkinstall
-wget 'https://launchpad.net/~theofficialgman/+archive/ubuntu/cmake-bionic/+files/cmake_3.24.2-25.1_armhf.deb' -O cmake.deb || error "Failed to download updated cmake package!"
-sudo apt install -yf ./cmake.deb
-rm -rf ./cmake.deb
+#wget 'https://launchpad.net/~theofficialgman/+archive/ubuntu/cmake-bionic/+files/cmake_3.24.2-25.1_armhf.deb' -O cmake.deb || error "Failed to download updated cmake package!"
+#sudo apt install -yf ./cmake.deb
+#rm -rf ./cmake.deb
 
 rm -rf box86
 
